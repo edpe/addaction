@@ -2,6 +2,7 @@
   "name": "addaction",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://edpe.github.io/addaction",
   "dependencies": {
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
@@ -11,21 +12,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-
-  "devDependencies": {
-    "react-scripts": "1.1.5",
-    "gh-pages": "1.2.0",
-  },
-  "scripts": {
-    "release": "bump --tag --push --prompt",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "npm run deploy:only",
-    "deploy:only": "gh-pages -d build/ -m \"deploy ${npm_package_version}\" -r ${npm_package_repository_url}",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
   }
 }
