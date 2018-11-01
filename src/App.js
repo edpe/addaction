@@ -7,7 +7,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">Addaction</h1>
-          <h2 className="App-title">DAST</h2>
+          <h2 className="App-title">**test environment**</h2>
         </header>
       </div>
     );
